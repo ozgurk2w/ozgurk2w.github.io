@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kismet - Gizlilik Politikasi</title>
+<style>
+  :root { --bg: #0A0B1A; --card: #13142D; --gold: #D4AF37; --text: #E8E8F0; --muted: #9898B0; --border: rgba(212,175,55,0.15); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; padding: 20px; }
+  .container { max-width: 800px; margin: 0 auto; }
+  h1 { color: var(--gold); font-size: 1.8rem; margin-bottom: 8px; }
+  h2 { color: var(--gold); font-size: 1.2rem; margin-top: 32px; margin-bottom: 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  p, li { color: var(--muted); margin-bottom: 10px; font-size: 0.95rem; }
+  ul { padding-left: 24px; }
+  .date { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
+  a { color: var(--gold); }
+  .lang-switch { text-align: right; margin-bottom: 16px; }
+  .lang-switch a { font-size: 0.85rem; text-decoration: none; padding: 4px 12px; border: 1px solid var(--border); border-radius: 8px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="lang-switch"><a href="#" onclick="toggleLang()" id="langBtn">English</a></div>
+
+<!-- TURKISH VERSION -->
+<div id="tr">
+<h1>Gizlilik Politikasi</h1>
+<p class="date">Son guncelleme: 11 Mart 2026</p>
+
+<p>YinYang Studio ("biz", "bizim") olarak, Kismet uygulamasini ("Uygulama") kullanan siz degerlI kullanicilarimizin ("Kullanici", "siz") kisisel verilerinin korunmasina buyuk onem veriyoruz. Bu Gizlilik Politikasi, 6698 sayili Kisisel Verilerin Korunmasi Kanunu (KVKK) ve Avrupa Birligi Genel Veri Koruma Tuzugu (GDPR) kapsaminda hazilanmistir.</p>
+
+<h2>1. Toplanan Veriler</h2>
+<p>Uygulamamiz asagidaki verileri toplar:</p>
+<ul>
+<li><strong>Hesap Bilgileri:</strong> E-posta adresi, gorunen ad (Google ile giris yaptiginizda)</li>
+<li><strong>Profil Bilgileri:</strong> Dogum tarihi, cinsiyet, iliski durumu, meslek (opsiyonel, kisisellestirilmis icerik icin)</li>
+<li><strong>Kullanim Verileri:</strong> Fal okuma gecmisi, uygulama kullanim istatistikleri, gunluk seri bilgisi</li>
+<li><strong>Cihaz Bilgileri:</strong> Cihaz turu, isletim sistemi versiyonu, uygulama versiyonu (hata tespiti icin)</li>
+<li><strong>Gorseller:</strong> Kahve fali ve el fali icin yuklenilen fotograflar (yalnizca AI yorumlama amaclidir)</li>
+<li><strong>Bildirim Tokenlari:</strong> Push bildirim gonderimi icin Firebase Cloud Messaging tokenlari</li>
+</ul>
+
+<h2>2. Verilerin Kullanim Amaci</h2>
+<ul>
+<li>AI destekli fal okuma hizmeti sunmak</li>
+<li>Kisisellestirilmis icerik ve onerilerde bulunmak</li>
+<li>Uygulama performansini izlemek ve iyilestirmek</li>
+<li>Hata tespiti ve cozumu (Firebase Crashlytics)</li>
+<li>Kullanim analitigi (Firebase Analytics)</li>
+<li>Push bildirimleri gondermek (kullanici izniyle)</li>
+<li>Premium abonelik yonetimi (RevenueCat)</li>
+<li>Reklam gosterimi (Google AdMob - premium olmayan kullanicilar icin)</li>
+</ul>
+
+<h2>3. Verilerin Paylasilmasi</h2>
+<p>Kisisel verileriniz asagidaki ucuncu taraflarla, yalnizca belirtilen amaclarla paylasilir:</p>
+<ul>
+<li><strong>Google (Gemini AI):</strong> Fal okumalari icin metin ve gorsel isleme. Veriler Google'in AI hizmet sartlarina tabidir.</li>
+<li><strong>Google (Firebase):</strong> Kimlik dogrulama, analitik, hata raporlama ve bildirimler.</li>
+<li><strong>Google (AdMob):</strong> Reklam gosterimi. Reklam kisilestirmesi icin cihaz bilgileri kullanilabilir.</li>
+<li><strong>Supabase:</strong> Veritabani barindirma ve dosya depolama.</li>
+<li><strong>RevenueCat:</strong> Abonelik ve odeme yonetimi.</li>
+</ul>
+<p>Kisisel verileriniz hicbir kosulda ucuncu taraflara satilamaz.</p>
+
+<h2>4. Veri Saklama ve Guvenlik</h2>
+<ul>
+<li>Verileriniz Supabase altyapisinda, Row Level Security (RLS) politikalariyla korunarak saklanir.</li>
+<li>Tum veri transferleri HTTPS/TLS ile sifrelenir.</li>
+<li>Fotograflar yalnizca AI yorumlama icin islenir ve ayri bir depolama alaninda tutulur.</li>
+<li>Hesabinizi sildiginizde tum kisisel verileriniz kalici olarak silinir.</li>
+</ul>
+
+<h2>5. Cerez ve Izleme Teknolojileri</h2>
+<ul>
+<li><strong>Firebase Analytics:</strong> Uygulama kullanim istatistikleri (anonim)</li>
+<li><strong>Firebase Crashlytics:</strong> Hata raporlama (cihaz bilgileri)</li>
+<li><strong>AdMob:</strong> Reklam kisilestirmesi (ATT izni gerektirir)</li>
+</ul>
+<p>iOS'ta Apple'in App Tracking Transparency (ATT) cercevesine uygun olarak, reklam izleme izniniz sorulur.</p>
+
+<h2>6. Kullanici Haklari (KVKK Madde 11 / GDPR Madde 15-21)</h2>
+<p>Asagidaki haklara sahipsiniz:</p>
+<ul>
+<li>Kisisel verilerinizin islenip islenmedigini ogrenme</li>
+<li>Islenmisse buna iliskin bilgi talep etme</li>
+<li>Isleme amacini ve amacina uygun kullanilip kullanilmadigini ogrenme</li>
+<li>Yurt ici veya yurt disinda aktarilip aktarilmadigini ogrenme</li>
+<li>Eksik veya yanlis islenmis verilerin duzeltilmesini isteme</li>
+<li>KVKK'nin 7. maddesindeki sartlar cercevesinde silinmesini isteme</li>
+<li>Verilerin tasinabilirligini talep etme (GDPR)</li>
+<li>Otomatik sistemler araciligiyla aleyhine bir sonucun ortaya cikmasina itiraz etme</li>
+</ul>
+<p>Bu haklarinizi kullanmak icin <a href="mailto:destek@kismet-fal.com">destek@kismet-fal.com</a> adresine e-posta gonderebilirsiniz.</p>
+
+<h2>7. Cocuklarin Gizliligi</h2>
+<p>Uygulamamiz 13 yasindan kucuk cocuklara yonelik degildir. Bilerek 13 yasindan kucuk cocuklardan kisisel veri toplamayiz.</p>
+
+<h2>8. Veri Aktarimi</h2>
+<p>Verileriniz, hizmet saglaycI altyapilari geregi ABD ve Avrupa Birligi ulkelerindeki sunucularda islenebilir. Bu aktarimlar KVKK ve GDPR'a uygun guvenlik onlemleri kapsaminda yapilir.</p>
+
+<h2>9. Degisiklikler</h2>
+<p>Bu politika zaman zaman guncellenebilir. Onemli degisiklikler uygulama ici bildirimle duyurulacaktir.</p>
+
+<h2>10. Iletisim</h2>
+<p>Gizlilik ile ilgili sorulariniz icin:<br>
+<strong>YinYang Studio</strong><br>
+E-posta: <a href="mailto:destek@kismet-fal.com">destek@kismet-fal.com</a></p>
+</div>
+
+<!-- ENGLISH VERSION -->
+<div id="en" style="display:none">
+<h1>Privacy Policy</h1>
+<p class="date">Last updated: March 11, 2026</p>
+
+<p>YinYang Studio ("we", "our") values the privacy of users ("User", "you") of the Kismet application ("App"). This Privacy Policy has been prepared in accordance with the Turkish Personal Data Protection Law No. 6698 (KVKK) and the EU General Data Protection Regulation (GDPR).</p>
+
+<h2>1. Data We Collect</h2>
+<ul>
+<li><strong>Account Information:</strong> Email address, display name (when signing in with Google)</li>
+<li><strong>Profile Information:</strong> Date of birth, gender, relationship status, occupation (optional, for personalized content)</li>
+<li><strong>Usage Data:</strong> Reading history, app usage statistics, daily streak information</li>
+<li><strong>Device Information:</strong> Device type, OS version, app version (for error detection)</li>
+<li><strong>Images:</strong> Photos uploaded for coffee cup and palm readings (used solely for AI interpretation)</li>
+<li><strong>Notification Tokens:</strong> Firebase Cloud Messaging tokens for push notifications</li>
+</ul>
+
+<h2>2. How We Use Your Data</h2>
+<ul>
+<li>Providing AI-powered fortune reading services</li>
+<li>Delivering personalized content and recommendations</li>
+<li>Monitoring and improving app performance</li>
+<li>Error detection and resolution (Firebase Crashlytics)</li>
+<li>Usage analytics (Firebase Analytics)</li>
+<li>Sending push notifications (with user permission)</li>
+<li>Premium subscription management (RevenueCat)</li>
+<li>Displaying advertisements (Google AdMob - for non-premium users)</li>
+</ul>
+
+<h2>3. Data Sharing</h2>
+<p>Your personal data is shared with the following third parties only for the stated purposes:</p>
+<ul>
+<li><strong>Google (Gemini AI):</strong> Text and image processing for fortune readings.</li>
+<li><strong>Google (Firebase):</strong> Authentication, analytics, crash reporting, and notifications.</li>
+<li><strong>Google (AdMob):</strong> Ad serving. Device information may be used for ad personalization.</li>
+<li><strong>Supabase:</strong> Database hosting and file storage.</li>
+<li><strong>RevenueCat:</strong> Subscription and payment management.</li>
+</ul>
+<p>Your personal data is never sold to third parties.</p>
+
+<h2>4. Data Storage and Security</h2>
+<ul>
+<li>Your data is stored on Supabase infrastructure, protected by Row Level Security (RLS) policies.</li>
+<li>All data transfers are encrypted via HTTPS/TLS.</li>
+<li>Photos are processed solely for AI interpretation and stored in a separate storage bucket.</li>
+<li>When you delete your account, all personal data is permanently deleted.</li>
+</ul>
+
+<h2>5. Cookies and Tracking Technologies</h2>
+<ul>
+<li><strong>Firebase Analytics:</strong> App usage statistics (anonymous)</li>
+<li><strong>Firebase Crashlytics:</strong> Crash reporting (device information)</li>
+<li><strong>AdMob:</strong> Ad personalization (requires ATT permission)</li>
+</ul>
+<p>On iOS, your ad tracking permission is requested in compliance with Apple's App Tracking Transparency (ATT) framework.</p>
+
+<h2>6. Your Rights</h2>
+<p>You have the following rights under KVKK and GDPR:</p>
+<ul>
+<li>Right to know whether your personal data is being processed</li>
+<li>Right to request information about processing</li>
+<li>Right to know the purpose of processing</li>
+<li>Right to know whether data is transferred domestically or abroad</li>
+<li>Right to request correction of incomplete or inaccurate data</li>
+<li>Right to request deletion under applicable law</li>
+<li>Right to data portability (GDPR)</li>
+<li>Right to object to automated decision-making</li>
+</ul>
+<p>To exercise these rights, email us at <a href="mailto:destek@kismet-fal.com">destek@kismet-fal.com</a>.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>Our app is not intended for children under 13. We do not knowingly collect personal data from children under 13.</p>
+
+<h2>8. International Data Transfers</h2>
+<p>Your data may be processed on servers in the United States and European Union due to our service provider infrastructure. These transfers are conducted under appropriate security measures in compliance with KVKK and GDPR.</p>
+
+<h2>9. Changes</h2>
+<p>This policy may be updated from time to time. Significant changes will be announced via in-app notifications.</p>
+
+<h2>10. Contact</h2>
+<p>For privacy-related questions:<br>
+<strong>YinYang Studio</strong><br>
+Email: <a href="mailto:destek@kismet-fal.com">destek@kismet-fal.com</a></p>
+</div>
+
+</div>
+
+<script>
+let lang = 'tr';
+function toggleLang() {
+  lang = lang === 'tr' ? 'en' : 'tr';
+  document.getElementById('tr').style.display = lang === 'tr' ? 'block' : 'none';
+  document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+  document.getElementById('langBtn').textContent = lang === 'tr' ? 'English' : 'Turkce';
+}
+</script>
+</body>
+</html>
