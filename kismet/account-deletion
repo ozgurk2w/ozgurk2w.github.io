@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kismet - Hesap Silme / Account Deletion</title>
+<title>Sezgi - Hesap Silme / Account Deletion</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.7; color: #e0e0e0; background: #0a0a1a; }
   h1 { color: #d4a745; border-bottom: 1px solid #d4a74533; padding-bottom: 12px; }
@@ -34,12 +34,12 @@
 <h1>Hesap Silme</h1>
 <p class="date">Son güncelleme: 12 Mart 2026</p>
 
-<p>Kismet hesabınızı ve ilişkili tüm verilerinizi silmek istiyorsanız aşağıdaki yöntemlerden birini kullanabilirsiniz.</p>
+<p>Sezgi hesabınızı ve ilişkili tüm verilerinizi silmek istiyorsanız aşağıdaki yöntemlerden birini kullanabilirsiniz.</p>
 
 <h2>Yöntem 1: Uygulama İçinden</h2>
 <div class="steps">
 <ol>
-  <li>Kismet uygulamasını açın</li>
+  <li>Sezgi uygulamasını açın</li>
   <li>Alt menüden <strong>Profil</strong> sekmesine gidin</li>
   <li><strong>Hesap Ayarları</strong> bölümüne dokunun</li>
   <li><strong>Hesabımı Sil</strong> seçeneğine dokunun</li>
@@ -49,8 +49,8 @@
 
 <h2>Yöntem 2: E-posta ile Talep</h2>
 <p>Aşağıdaki e-posta adresine hesap silme talebinizi gönderebilirsiniz:</p>
-<p class="email-link">📧 <a href="mailto:ozgurozzcan@gmail.com?subject=Kismet%20Hesap%20Silme%20Talebi">ozgurozzcan@gmail.com</a></p>
-<p>E-posta konusu: <strong>Kismet Hesap Silme Talebi</strong></p>
+<p class="email-link">📧 <a href="mailto:ozgurozzcan@gmail.com?subject=Sezgi%20Hesap%20Silme%20Talebi">ozgurozzcan@gmail.com</a></p>
+<p>E-posta konusu: <strong>Sezgi Hesap Silme Talebi</strong></p>
 <p>Talebiniz en geç <strong>7 iş günü</strong> içinde işleme alınacaktır.</p>
 
 <h2>Silinen Veriler</h2>
@@ -63,7 +63,7 @@
 </ul>
 
 <div class="warning">
-  <strong>⚠️ Önemli:</strong> Hesap silme işlemi geri alınamaz. Aktif bir Kismet Pro aboneliğiniz varsa, hesabınızı silmeden önce aboneliğinizi Google Play Store veya App Store üzerinden iptal etmenizi öneririz.
+  <strong>⚠️ Önemli:</strong> Hesap silme işlemi geri alınamaz. Aktif bir Sezgi Pro aboneliğiniz varsa, hesabınızı silmeden önce aboneliğinizi Google Play Store veya App Store üzerinden iptal etmenizi öneririz.
 </div>
 
 <h2>Veri Saklama Süresi</h2>
@@ -75,12 +75,12 @@
 <h1>Account Deletion</h1>
 <p class="date">Last updated: March 12, 2026</p>
 
-<p>If you would like to delete your Kismet account and all associated data, you can use one of the following methods.</p>
+<p>If you would like to delete your Sezgi account and all associated data, you can use one of the following methods.</p>
 
 <h2>Method 1: In-App Deletion</h2>
 <div class="steps">
 <ol>
-  <li>Open the Kismet app</li>
+  <li>Open the Sezgi app</li>
   <li>Go to the <strong>Profile</strong> tab from the bottom menu</li>
   <li>Tap on <strong>Account Settings</strong></li>
   <li>Tap on <strong>Delete My Account</strong></li>
@@ -90,8 +90,8 @@
 
 <h2>Method 2: Request via Email</h2>
 <p>You can send an account deletion request to the following email address:</p>
-<p class="email-link">📧 <a href="mailto:ozgurozzcan@gmail.com?subject=Kismet%20Account%20Deletion%20Request">ozgurozzcan@gmail.com</a></p>
-<p>Email subject: <strong>Kismet Account Deletion Request</strong></p>
+<p class="email-link">📧 <a href="mailto:ozgurozzcan@gmail.com?subject=Sezgi%20Account%20Deletion%20Request">ozgurozzcan@gmail.com</a></p>
+<p>Email subject: <strong>Sezgi Account Deletion Request</strong></p>
 <p>Your request will be processed within <strong>7 business days</strong>.</p>
 
 <h2>Data Deleted</h2>
@@ -104,7 +104,7 @@
 </ul>
 
 <div class="warning">
-  <strong>⚠️ Important:</strong> Account deletion is irreversible. If you have an active Kismet Pro subscription, we recommend canceling it through Google Play Store or App Store before deleting your account.
+  <strong>⚠️ Important:</strong> Account deletion is irreversible. If you have an active Sezgi Pro subscription, we recommend canceling it through Google Play Store or App Store before deleting your account.
 </div>
 
 <h2>Data Retention Period</h2>
